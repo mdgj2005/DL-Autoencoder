@@ -25,9 +25,9 @@ Repeat through multiple epochs for better denoising performance.
 
 ## PROGRAM
 
-### Name: EASWAR R
+### Name: M.GOKUL ANAND
 
-### Register Number: 212223230053
+### Register Number: 212223040049
 
 ```python
 import torch
@@ -86,14 +86,14 @@ criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
 # Print model summary
-print("Name : EASWAR R\nReg No : 212223230053")
+print("Name : M.GOKUL ANAND R\nReg No : 212223040049")
 summary(model, input_size=(1, 28, 28))
 
 # Train the autoencoder
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print("Name: EASWAR R")
-    print("Register Number: 212223230053")
+    print("Name: M.GOKUL ANAND")
+    print("Register Number: 212223040049")
     for epoch in range(epochs):
         running_loss = 0.0
         for images, _ in loader:
@@ -125,8 +125,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: EASWAR R")
-    print("Register Number: 212223230053")
+    print("Name: M.GOKUL ANAND")
+    print("Register Number: 212223040049")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
